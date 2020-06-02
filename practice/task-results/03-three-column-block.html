@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>03. Three column block</title>
+		<style type="text/css">
+		body {
+		  font: 12px Arial;
+		  background: #4E6379;
+		}
+		h3 {
+		  color: #F56332;
+		}
+		.hosting {
+		  background: white;
+		  overflow: hidden;
+		  width: 602px;
+		  background: white;
+		  border-radius: 5px;
+		  margin: auto;
+		  padding: 10px;
+		}
+		.item {
+		  float: left;
+		  width: 200px;
+		  border-left: 1px solid #D9D9D9;
+		  text-align: center;
+		  margin: 10px 0;
+		}
+		.icon {
+		  width: 61px; height: 42px;
+		  background: url(hosting.png) no-repeat;
+		  margin: auto;
+		}
+		.item:first-child {
+		  border: none;
+		}
+		.cloud {
+		  background-position: 0 -42px;
+		}
+		.server {
+		  background-position: 0 -84px;
+		}
+		.button {
+		  background: #F56332;
+		  display: inline;
+		  color: white;
+		  border-radius: 2px;
+		  padding: 5px 10px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="hosting">
+			<div class="item">
+				<div class="icon"></div>
+				<h3>Виртуальный хостинг</h3>
+				<p>3.95$ в месяц</p>
+				<p class="button">Подробнее</p>
+			</div>
+			<div class="item">
+				<div class="icon cloud"></div>
+				<h3>Облачный хостинг</h3>
+				<p>68.95$ в месяц</p>
+				<p class="button">Подробнее</p>
+			</div>
+			<div class="item">
+				<div class="icon server"></div>
+				<h3>Выделенный сервер</h3>
+				<p>217.95$ в месяц</p>
+				<p class="button">Подробнее</p>
+			</div>
+		</div>
+	</body>
+</html>

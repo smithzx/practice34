@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Basic browser tools</title>
+		<link rel="stylesheet" href="basic-bt-3.css">
+	</head>
+
+	<body onload="Tools.init()">
+		Text<input id="text">
+		Color<input id="color">
+		Marker<select id="marker">
+			<option value="disc">disc</option>
+			<option value="circle">circle</option>
+			<option value="square">square</option>
+		</select></br>
+		<button id="create" onclick="Tools.create()">Create</button>
+		<button id="change" onclick="Tools.change()">Change current</button>
+		<button id="delete" onclick="Tools.remove()">Delete current</button>
+		<ul id="list">
+		</ul>
+
+		<script src="basic-bt-3.js"></script>
+	</body>
+</html>

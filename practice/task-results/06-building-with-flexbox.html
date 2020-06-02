@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>06. Building with flexbox</title>
+		<style type="text/css">
+		body {
+		  background: #333;
+		}
+		.container,.vba,.vb1,.more {
+		  background: white;
+		}
+		.flex {
+		  background: lightgray;
+		  display: flex;
+		  justify-content: space-between;
+		}
+		.si,.vba,.vb1,.more {
+		  margin: 5px;
+		  padding: 5px;
+		  white-space: nowrap;
+		}
+		.si,.more {
+		  flex: none;
+		}
+		.vba,.vb1 {
+		  flex: auto;
+		  text-overflow: ellipsis;
+		  overflow: hidden;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<div class="flex">
+			<div class="si">
+			Select Investment
+			</div>
+			<div class="vba">
+			!_vb asset
+			</div>
+			<div class="vb1">
+			!_vb asset1
+			</div>
+			<div class="more">
+			+1 more
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
