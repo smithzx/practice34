@@ -1,0 +1,11 @@
+    .input111 {
+    vertical-align: middle;
+    height: 100%;
+    margin-left: 50%;
+    margin-top: 50%;
+    border-color: red;
+}
+
+.input111:focus {
+     border-color: green;
+ }

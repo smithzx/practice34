@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: slategrey;
+    height: 1000px;
+    padding: 25px;
+    display: flex;
+}
+
+.inner-block {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
+.kvazi-button {
+    background-color: orange;
+    border-radius: 4px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    margin: auto;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-top: 25px;
+    display: inline-block;
+}
